@@ -1,4 +1,4 @@
-FROM ruby:3.3-rc-slim
+FROM ruby:3.5-rc-slim
 
 EXPOSE 4567:4567
 EXPOSE 35729:35729
