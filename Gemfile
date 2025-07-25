@@ -9,7 +9,7 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Include the tech docs gem
-gem 'govuk_tech_docs'
+gem 'govuk_tech_docs', '>= 3.4.5'
 
 # Include linter to check for dead internal links
-gem 'html-proofer', '~> 3.19.4'
+gem 'html-proofer', '~> 4.0.0'
